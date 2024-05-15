@@ -211,6 +211,7 @@ nav a {
 	grid-template-columns: repeat(3, 4.75rem);
 	grid-template-rows: repeat(3, 4.75rem);
 	gap: .5rem;
+	grid-auto-rows: 1fr;
 }
 
 .grid-box {
@@ -225,6 +226,12 @@ nav a {
 	background-color: #ccc;
 	color: #000;
 }
+
+
+/* .move-me{
+	grid-row: 6 / 7;
+	grid-column: 2 / 3;	
+} */
 
 
 /*--------------------------------------------------------------
