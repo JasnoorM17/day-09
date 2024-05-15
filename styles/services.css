@@ -248,3 +248,28 @@ nav a {
 /*--------------------------------------------------------------
 # Dark Mode
 --------------------------------------------------------------*/
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #000;
+		color: white;
+	}
+
+	header,footer {
+		background-color: gray;
+		color: black;
+	}
+
+	.services article {
+		background-color: #347034;
+	}
+
+	a,
+	a:visted {
+		color: white;
+	}
+
+	a:hover,
+	a:focus {
+		color:orange;
+	}
+}
